@@ -6,13 +6,13 @@
       "text": "This is the item 2 from the backend"
     },
     {
-      "rating": "4",
-      "text": "From Post-man",
+      "text": "First item",
+      "rating": 7,
       "id": 3
     },
     {
-      "text": "Changed post from server!",
-      "rating": 9,
+      "text": "A new one.",
+      "rating": 5,
       "id": 4
     }
   ]

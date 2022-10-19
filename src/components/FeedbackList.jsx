@@ -13,6 +13,7 @@ const FeedbackList = () => {
     return isLoading ? <Spinner/> :
      (
         <div className='feedback-list'>
+            <div>{isLoading}</div>
             {feedback.map(item => {
                 return <FeedbackItem key={item.id} item={item}/>
             })}

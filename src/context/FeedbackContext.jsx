@@ -42,7 +42,11 @@ export const FeedbackProvider = ({children}) => {
 
         setFeedback(feedback.map(item => {
             return item.id === id ? {...item, ...data} : item;
-        }))
+        }));
+        setFeedbackEdit({
+            item: {},
+            edit: false,
+        });
     };
 
     const addFeedback = async newFeedback => {
